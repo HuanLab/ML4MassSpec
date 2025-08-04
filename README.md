@@ -7,7 +7,6 @@ This repository provides a hands-on guide to machine learning concepts in metabo
 ```
 ml-metabolomics-tutorial/
 ├── README.md
-├── data/
 └── notebooks/
     ├── 1_Data_Preparation.ipynb
     ├── 2_Model_Training.ipynb
