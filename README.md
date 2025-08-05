@@ -51,8 +51,6 @@ If you are on Mac or Linux, you already have a terminal installed.
 Click the green “Code” button on this page and choose “Download ZIP”. Unzip the file to a folder on your computer.
 
 Or, if you know how to use git:
-git clone https://github.com/yourusername/ml-metabolomics-tutorial.git
-```
 ```bash
 git clone https://github.com/HuanLab/ML4MassSpec.git
 ```
@@ -150,7 +148,6 @@ See how to interpret and explain model predictions:
 - If you are new to Python, these beginner guides may help:
     - [Python.org Beginner's Guide](https://docs.python.org/3/tutorial/index.html)
     - [W3Schools Python Tutorial](https://www.w3schools.com/python/)
-    - [Programiz Python Tutorial](https://www.programiz.com/python-programming/tutorial)
   For more help, search for the error message online—many answers are available on Stack Overflow.
 
 ---
