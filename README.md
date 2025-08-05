@@ -17,25 +17,44 @@ You will use interactive notebooks (Jupyter Notebooks) that let you run code and
 
 ## What You Need
 
-**1. A Computer (Windows, Mac, or Linux)**
+**1. Python 3.8 or higher**
+  - If you do not have Python, you can either download and install it from [python.org](https://www.python.org/downloads/) or install the Anaconda distribution (recommended for beginners).
 
-**2. Python 3.8 or higher**
-  - If you do not have Python, download and install it from [python.org](https://www.python.org/downloads/).
+**2. (Recommended) Install Anaconda**
+  - Anaconda is a free distribution of Python that includes Jupyter Notebook and many scientific libraries. It makes setup easier for beginners.
+  - Download the installer for your operating system from: [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
+  - Run the installer and follow the instructions (default options are fine).
+  - After installation, you can open the "Anaconda Prompt" (Windows) or use your terminal (Mac/Linux) to continue.
 
 **3. Jupyter Notebook**
-  - Jupyter lets you run and edit the tutorial interactively. It comes with the Anaconda distribution, or you can install it as shown below.
+  - Jupyter lets you run and edit the tutorial interactively. It comes with the Anaconda distribution, or you can install it as shown below if you chose not to use Anaconda.
 
 ---
 
 ## How to Set Up (Step by Step)
+
+
+### 0. Install Git Bash (Windows Only)
+
+If you are using Windows, it’s recommended to install Git Bash. This gives you a terminal similar to Mac/Linux and makes following the instructions easier.
+
+1. Download Git Bash from the official website: [https://gitforwindows.org/](https://gitforwindows.org/)
+2. Run the installer and follow the prompts (default options are fine).
+3. After installation, you can open “Git Bash” from your Start menu.
+
+If you are on Mac or Linux, you already have a terminal installed.
+
+---
 
 ### 1. Download the Tutorial
 
 Click the green “Code” button on this page and choose “Download ZIP”. Unzip the file to a folder on your computer.
 
 Or, if you know how to use git:
-```bash
 git clone https://github.com/yourusername/ml-metabolomics-tutorial.git
+```
+```bash
+git clone https://github.com/HuanLab/ML4MassSpec.git
 ```
 
 ### 2. Open a Terminal or Command Prompt
@@ -128,11 +147,14 @@ See how to interpret and explain model predictions:
 
 - If you see an error about a missing package, double-check you ran `pip install -r requirements.txt`.
 - If Jupyter Notebook does not open, try closing and reopening your terminal, or restarting your computer.
-- If you are new to Python, [this beginner’s guide](https://realpython.com/python-beginners-guide/) may help.
-- For more help, search for the error message online—many answers are available on Stack Overflow.
+- If you are new to Python, these beginner guides may help:
+    - [Python.org Beginner's Guide](https://docs.python.org/3/tutorial/index.html)
+    - [W3Schools Python Tutorial](https://www.w3schools.com/python/)
+    - [Programiz Python Tutorial](https://www.programiz.com/python-programming/tutorial)
+  For more help, search for the error message online—many answers are available on Stack Overflow.
 
 ---
 
 ## Contact & Support
 
-If you have questions or suggestions, please open an issue on the GitHub repository or email the maintainer at [your-email@example.com].
+If you have questions or suggestions, please open an issue on the GitHub repository or email the maintainer at Application tasks chenzhao@ece.ubc.ca.
