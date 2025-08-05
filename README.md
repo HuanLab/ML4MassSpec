@@ -63,7 +63,7 @@ git clone https://github.com/HuanLab/ML4MassSpec.git
 
 Use the `cd` command to go to the folder where you unzipped or cloned the tutorial. For example:
 ```bash
-cd path/to/ml-metabolomics-tutorial
+cd path/to/ML4MassSpec
 ```
 
 ### 3. Install All Required Packages
