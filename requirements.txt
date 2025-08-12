@@ -7,3 +7,4 @@ seaborn>=0.11.0
 shap>=0.39.0
 jupyter
 imbalanced-learn
+datasets

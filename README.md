@@ -104,6 +104,8 @@ If you see an error, make sure you installed Jupyter as shown above.
     - 3_Model_Evaluation.ipynb
     - 4_Model_Interpretability.ipynb
 
+All notebooks load the dataset directly from Hugging Face (CSV files hosted on the Hub). If network access is restricted, you can also download the CSVs and point the paths locally. See the dataset link below.
+
 If you get stuck, read the comments and explanations in each cell. Most steps are explained in plain language.
 
 ---
@@ -155,3 +157,18 @@ See how to interpret and explain model predictions:
 ## Contact & Support
 
 If you have questions or suggestions, please open an issue on the GitHub repository or email the maintainer at Application tasks chenzhao@ece.ubc.ca.
+
+---
+
+## Dataset on Hugging Face
+
+This tutorial uses data hosted on the Hugging Face Hub:
+
+- Dataset: https://huggingface.co/datasets/chen1028/Cl-Containing-Compound
+
+In code, the notebooks load the CSV splits like:
+
+- Train: hf://datasets/chen1028/Cl-Containing-Compound/train.csv
+- Test:  hf://datasets/chen1028/Cl-Containing-Compound/test.csv
+
+If the hf:// scheme is unavailable in your environment, the notebooks automatically fall back to https://huggingface.co/datasets/chen1028/Cl-Containing-Compound/resolve/main/train.csv (and test.csv).
