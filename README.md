@@ -27,52 +27,16 @@ You will use interactive notebooks (Jupyter Notebooks) that let you run code and
   - After installation, you can open the "Anaconda Prompt" (Windows) or use your terminal (Mac/Linux) to continue.
 
 **3. Jupyter Notebook**
-  - Jupyter lets you run and edit the tutorial interactively.
-  - If you installed Anaconda you ALREADY have Jupyter (skip install, just start it as shown below).
-  - If you did NOT install Anaconda, install Jupyter manually:
-
-    Minimal classic interface (Notebook):
+  - If you installed Anaconda you already have Jupyter. Simply activate (or open) your Anaconda environment and run:
     ```bash
-    pip install notebook
+    jupyter lab   # or: jupyter notebook
     ```
-    Modern interface (JupyterLab, recommended):
+  - If you did NOT install Anaconda, install Jupyter in one line then start it:
     ```bash
-    pip install jupyterlab
+    pip install jupyterlab && jupyter lab
     ```
-    Or both + widgets:
-    ```bash
-    pip install jupyterlab notebook ipywidgets
-    ```
-
-    Verify install:
-    ```bash
-    jupyter --version
-    ```
-    (If "command not found" appears, ensure your environment is activated or your PATH includes the Python scripts directory.)
-
-  - Start Jupyter (choose ONE):
-    ```bash
-    jupyter notebook   # classic
-    # or
-    jupyter lab        # JupyterLab
-    ```
-    This should open a browser tab. If it does not, copy the printed URL containing the token into your browser.
-
-  - Remote server usage (optional):
-    On remote machine:
-    ```bash
-    jupyter lab --no-browser --port 8888
-    ```
-    From local machine (new terminal):
-    ```bash
-    ssh -N -L 8888:localhost:8888 user@remote_host
-    ```
-    Then open http://localhost:8888 locally.
-
-  - Common startup issues:
-    - Missing command: Reinstall with `pip install notebook` or activate conda env.
-    - Browser fails to open: Manually paste the URL with the `?token=` parameter.
-    - Permission errors on Windows: Move the project to a folder in your user directory.
+  - If a browser does not open automatically, copy the URL with the token from the terminal into your browser.
+  - For remote servers (optional): run `jupyter lab --no-browser --port 8888` remotely and SSH tunnel: `ssh -N -L 8888:localhost:8888 user@remote_host` then open http://localhost:8888.
 
 ---
 
