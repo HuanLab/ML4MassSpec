@@ -31,10 +31,6 @@ You will use interactive notebooks (Jupyter Notebooks) that let you run code and
     ```bash
     jupyter lab   # or: jupyter notebook
     ```
-  - If you did NOT install Anaconda, install Jupyter in one line then start it:
-    ```bash
-    pip install jupyterlab && jupyter lab
-    ```
   - If a browser does not open automatically, copy the URL with the token from the terminal into your browser.
   - For remote servers (optional): run `jupyter lab --no-browser --port 8888` remotely and SSH tunnel: `ssh -N -L 8888:localhost:8888 user@remote_host` then open http://localhost:8888.
 
