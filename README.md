@@ -1,6 +1,6 @@
 # Machine Learning in Metabolomics Tutorial
 
-Welcome! This repository is a step-by-step beginner’s guide to using machine learning for metabolomics data. You do not need any coding experience to get started. All instructions are written for absolute beginners.
+Welcome! This repository is a step-by-step beginner’s guide to using machine learning in metabolomics, with a specific forcus on data processing and interpreatation. You do not need much coding experience to get started. All instructions are written for beginners.
 
 ---
 
