@@ -1,7 +1,3 @@
-Here’s your **fully edited `README.md`** with reliable images and video links embedded. You can paste this over your current file.
-
----
-
 # Tutorial of Machine Learning in Metabolomics
 
 Welcome! This repository is a step-by-step beginner’s guide to using machine learning in metabolomics, with a specific focus on data processing and interpretation. You do not need much coding experience to get started. All instructions are written for beginners.
