@@ -125,6 +125,19 @@ How to know it worked: your terminal prompt will start with the environment name
 
 If you prefer not to use a virtual environment, you can skip this step.
 
+Deactivate the environment when you're done:
+
+- If you used Python venv (or most shells):
+  ```bash
+  deactivate
+  ```
+- If you used Conda:
+  ```bash
+  conda deactivate
+  ```
+
+Tip: Simply closing the terminal window also ends the environment session.
+
 ### 4. Install All Required Packages
 
 This tutorial uses several Python libraries. You can install them all at once using the provided requirements file. Just copy and paste this command:
