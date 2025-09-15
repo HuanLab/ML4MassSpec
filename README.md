@@ -19,11 +19,12 @@ You will use interactive notebooks (Jupyter Notebooks) that let you run code and
 ## Visual Overview
 
 **Typical ML Workflow (high level)**
-![Machine Learning Workflow](https://upload.wikimedia.org/wikipedia/commons/5/55/Machine_learning_workflow_diagram.png "Data → Prep → Train → Evaluate → Interpret") ([Wikimedia Commons][1])
+![Typical ML workflow diagram](images/workflow.png)
+Source: [Wikimedia Commons][1]
 
 **Jupyter Notebook interface (what you’ll see)**
-![Jupyter Notebook UI](https://jupyter-notebook.readthedocs.io/en/stable/_images/notebook-dashboard.png "Notebook Dashboard")
-![Jupyter Notebook Editor](https://jupyter-notebook.readthedocs.io/en/stable/_images/notebook-empty.png "Notebook Editor") ([jupyter-notebook.readthedocs.io][2])
+![Jupyter Notebook interface](images/jupyter_notebook.png)
+Source: [jupyter-notebook.readthedocs.io][2]
 
 ---
 
@@ -321,20 +322,6 @@ See how to interpret and explain model predictions:
 If you have questions or suggestions, please open an issue on the GitHub repository or email the maintainer at Application tasks [chenzhao@ece.ubc.ca](mailto:chenzhao@ece.ubc.ca) (Chen Zhao) and [thuan@chem.ubc.ca](mailto:thuan@chem.ubc.ca) (Tao Huan).
 
 ---
-
-### Attribution Notes for Embedded Media
-
-* ML workflow diagram: Wikimedia Commons (CC0). ([Wikimedia Commons][1])
-* Jupyter UI screenshots: Jupyter Notebook documentation. ([jupyter-notebook.readthedocs.io][2])
-* Confusion matrix image: Wikimedia Commons (CC BY-SA). ([Wikimedia Commons][5])
-* ROC curve image: Wikimedia Commons (CC BY-SA 4.0). ([Wikimedia Commons][6])
-* Anaconda install video and Jupyter tutorial: YouTube links included above. ([YouTube][3])
-* Feature importance references: scikit-learn docs. ([Scikit-learn][7])
-* Metabolomics + ML lecture (event page): Imperial College London. ([Imperial College London][9])
-
----
-
-### Resources
 
 [1]: https://commons.wikimedia.org/wiki/File%3AMachine_learning_workflow_diagram.png "File:Machine learning workflow diagram.png - Wikimedia Commons"
 [2]: https://jupyter-notebook.readthedocs.io/en/stable/ui_components.html "User interface components — Jupyter Notebook 7.4.5 documentation"
