@@ -1,6 +1,6 @@
 # Tutorial of Machine Learning in Metabolomics 
 
-Welcome! This repository is a step-by-step beginner’s guide to using machine learning in metabolomics, with a specific forcus on data processing and interpreatation. You do not need much coding experience to get started. All instructions are written for beginners.
+Welcome! This repository is a step-by-step beginner’s guide to using machine learning in metabolomics, with a specific focus on data processing and interpretation. You do not need much coding experience to get started. All instructions are written for beginners.
 
 ---
 
@@ -66,12 +66,66 @@ git clone https://github.com/HuanLab/ML4MassSpec.git
 - **Mac:** Open “Terminal” from Applications > Utilities.
 - **Linux:** Open your usual terminal.
 
-Use the `cd` command to go to the folder where you unzipped or cloned the tutorial. For example:
+Use the `cd` command to go to the folder where you unzipped or cloned the tutorial.
+
+Examples (copy one that matches your system):
+
+- Windows (if you downloaded a ZIP to Downloads):
+  ```bat
+  cd "C:\Users\YourName\Downloads\ML4MassSpec"
+  ```
+  If you cloned with `git clone` in your home folder, it likely created a folder named `ML4MassSpec` there:
+  ```bat
+  cd "C:\Users\YourName\ML4MassSpec"
+  ```
+
+- macOS:
+  ```bash
+  cd ~/Downloads/ML4MassSpec
+  # or, if you cloned in your home folder
+  cd ~/ML4MassSpec
+  ```
+
+- Linux:
+  ```bash
+  cd ~/Downloads/ML4MassSpec
+  # or, if you cloned in your home folder
+  cd ~/ML4MassSpec
+  ```
+
+Tips for beginners:
+- Paths with spaces must be quoted, e.g., `cd "C:\Users\Your Name\Documents\ML4MassSpec"` or `cd "/Users/Your Name/ML4MassSpec"`.
+- Press the Tab key after typing part of a folder name to auto-complete.
+- After changing directory, you can run `pwd` (macOS/Linux) or `cd` (Windows) to confirm your current folder.
+
+### 3. (Optional) Create and Activate a Virtual Environment
+
+Creating a separate environment keeps this tutorial’s packages isolated and avoids conflicts.
+
+Option A — Built-in Python venv (works without Anaconda):
+
+- macOS/Linux:
+  ```bash
+  python3 -m venv .venv
+  source .venv/bin/activate
+  ```
+- Windows (Command Prompt or PowerShell):
+  ```bat
+  python -m venv .venv
+  .venv\Scripts\activate
+  ```
+
+Option B — Conda (if you use Anaconda/Miniconda):
 ```bash
-cd path/to/ML4MassSpec
+conda create -n ml4ms python=3.10 -y
+conda activate ml4ms
 ```
 
-### 3. Install All Required Packages
+How to know it worked: your terminal prompt will start with the environment name, like `(ml4ms)` or `(.venv)`.
+
+If you prefer not to use a virtual environment, you can skip this step.
+
+### 4. Install All Required Packages
 
 This tutorial uses several Python libraries. You can install them all at once using the provided requirements file. Just copy and paste this command:
 
@@ -86,7 +140,14 @@ If you are using Anaconda, you can also use:
 conda install --file requirements.txt
 ```
 
-### 4. Start Jupyter Notebook
+Optional but helpful:
+- Upgrade pip first if installation complains:
+  ```bash
+  python -m pip install --upgrade pip
+  ```
+- If you created a virtual environment, ensure it’s activated before running `pip`.
+
+### 5. Start Jupyter Notebook
 
 In the same terminal, type:
 ```bash
@@ -112,6 +173,21 @@ If you see an error, make sure you installed Jupyter as shown above.
 All notebooks load the dataset directly from Hugging Face (CSV files hosted on the Hub). If network access is restricted, you can also download the CSVs and point the paths locally. See the dataset link below.
 
 If you get stuck, read the comments and explanations in each cell. Most steps are explained in plain language.
+
+---
+
+## Dataset on Hugging Face
+
+This tutorial uses data hosted on the Hugging Face Hub:
+
+- Dataset: https://huggingface.co/datasets/chen1028/Cl-Containing-Compound
+
+In code, the notebooks load the CSV splits like:
+
+- Train: hf://datasets/chen1028/Cl-Containing-Compound/train.csv
+- Test:  hf://datasets/chen1028/Cl-Containing-Compound/test.csv
+
+If the hf:// scheme is unavailable in your environment, the notebooks automatically fall back to https://huggingface.co/datasets/chen1028/Cl-Containing-Compound/resolve/main/train.csv (and test.csv).
 
 ---
 
@@ -161,19 +237,4 @@ See how to interpret and explain model predictions:
 
 ## Contact & Support
 
-If you have questions or suggestions, please open an issue on the GitHub repository or email the maintainer at Application tasks chenzhao@ece.ubc.ca.
-
----
-
-## Dataset on Hugging Face
-
-This tutorial uses data hosted on the Hugging Face Hub:
-
-- Dataset: https://huggingface.co/datasets/chen1028/Cl-Containing-Compound
-
-In code, the notebooks load the CSV splits like:
-
-- Train: hf://datasets/chen1028/Cl-Containing-Compound/train.csv
-- Test:  hf://datasets/chen1028/Cl-Containing-Compound/test.csv
-
-If the hf:// scheme is unavailable in your environment, the notebooks automatically fall back to https://huggingface.co/datasets/chen1028/Cl-Containing-Compound/resolve/main/train.csv (and test.csv).
+If you have questions or suggestions, please open an issue on the GitHub repository or email the maintainer at Application tasks chenzhao@ece.ubc.ca (Chen Zhao) and thuan@chem.ubc.ca (Tao Huan).
