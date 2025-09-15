@@ -20,7 +20,6 @@ You will use interactive notebooks (Jupyter Notebooks) that let you run code and
 
 **Typical ML Workflow (high level)**
 ![Typical ML workflow diagram](images/workflow.png)
-Source: [Wikimedia Commons][1]
 
 **Jupyter Notebook interface (what you’ll see)**
 ![Jupyter Notebook interface](images/jupyter_notebook.png)
@@ -227,21 +226,6 @@ If you get stuck, read the comments and explanations in each cell. Most steps ar
 
 ---
 
-## Example Outputs (what you’ll learn to read)
-
-**Confusion Matrix**
-![Confusion Matrix](https://upload.wikimedia.org/wikipedia/commons/2/2b/ConfusionMatrix.png) ([Wikimedia Commons][5])
-
-**ROC Curve**
-![ROC Curve](https://upload.wikimedia.org/wikipedia/commons/3/3a/Roc_curve.svg) ([Wikimedia Commons][6])
-
-**(Further reading) Feature importance via permutation**
-
-* Guide: [https://scikit-learn.org/stable/modules/permutation\_importance.html](https://scikit-learn.org/stable/modules/permutation_importance.html) ([Scikit-learn][7])
-* Example with multicollinearity discussion: [https://scikit-learn.org/stable/auto\_examples/inspection/plot\_permutation\_importance\_multicollinear.html](https://scikit-learn.org/stable/auto_examples/inspection/plot_permutation_importance_multicollinear.html) ([Scikit-learn][8])
-
----
-
 ## Dataset on Hugging Face
 
 This tutorial uses data hosted on the Hugging Face Hub:
@@ -295,13 +279,6 @@ See how to interpret and explain model predictions:
 * Feature importance
 * SHAP (Shapley Additive Explanations)
 * Practical interpretation tips
-
----
-
-## Bonus Learning (Metabolomics + ML)
-
-* Imperial inaugural lecture page (context + livestream link):
-  [https://www.imperial.ac.uk/events/156676/metabolism-meets-machine-learning-computational-metabolomics/](https://www.imperial.ac.uk/events/156676/metabolism-meets-machine-learning-computational-metabolomics/) ([Imperial College London][9])
 
 ---
 
