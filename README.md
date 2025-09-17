@@ -68,7 +68,6 @@ After installing Anaconda:
 ---
 
 
-
 ### 3. Check Your Location and Clone the Repository
 
 
@@ -92,36 +91,9 @@ git clone https://github.com/HuanLab/ML4MassSpec.git
 cd ML4MassSpec
 ```
 
-
-
 ### 4. Set Up Python Virtual Environment with pip
 
 In your terminal (Command Prompt, Anaconda Prompt, or Terminal), run each command below and read the explanation:
-
-```bash
-# Create a new Python virtual environment named '.venv'
-python -m venv .venv
-
-# Activate the virtual environment
-# On Windows:
-.venv\Scripts\activate
-# On macOS/Linux:
-source .venv/bin/activate
-
-# Upgrade pip (recommended)
-python -m pip install --upgrade pip
-
-# Install all required packages from requirements.txt using pip
-pip install -r requirements.txt
-
-# Register this environment as a new Jupyter kernel named 'Python (ml4ms)'
-python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
-```
-
-This will create a new Python virtual environment, install all required packages, and add it as a selectable kernel in Jupyter. If you want to use the terminal in JupyterLab, make sure 'terminado' is installed as shown above.
-### 4. Set Up Python Virtual Environment with pip
-
-In your terminal (Anaconda Prompt, Command Prompt, or Terminal), run each command below and read the explanation:
 
 ```bash
 # Create a new Python virtual environment named '.venv'
@@ -168,21 +140,6 @@ At the top of the notebook, select the kernel named **Python (ml4ms)**. This ens
 All notebooks load the dataset directly from Hugging Face (CSV files hosted on the Hub). If network access is restricted, you can also download the CSVs and point the paths locally. See the dataset link below.
 
 If you get stuck, read the comments and explanations in each cell. Most steps are explained in plain language.
-
----
-
-## Dataset on Hugging Face
-
-This tutorial uses data hosted on the Hugging Face Hub:
-
-* Dataset: [https://huggingface.co/datasets/chen1028/Cl-Containing-Compound](https://huggingface.co/datasets/chen1028/Cl-Containing-Compound)
-
-In code, the notebooks load the CSV splits like:
-
-* Train: hf://datasets/chen1028/Cl-Containing-Compound/train.csv
-* Test:  hf://datasets/chen1028/Cl-Containing-Compound/test.csv
-
-If the hf:// scheme is unavailable in your environment, the notebooks automatically fall back to [https://huggingface.co/datasets/chen1028/Cl-Containing-Compound/resolve/main/train.csv](https://huggingface.co/datasets/chen1028/Cl-Containing-Compound/resolve/main/train.csv) (and test.csv).
 
 ---
 
@@ -236,6 +193,22 @@ See how to interpret and explain model predictions:
   * [Python.org Beginner's Guide](https://docs.python.org/3/tutorial/index.html)
   * [W3Schools Python Tutorial](https://www.w3schools.com/python/)
     For more help, search for the error message online—many answers are available on Stack Overflow.
+
+---
+
+## Dataset on Hugging Face
+
+This tutorial uses data hosted on the Hugging Face Hub:
+
+* Dataset: [https://huggingface.co/datasets/chen1028/Cl-Containing-Compound](https://huggingface.co/datasets/chen1028/Cl-Containing-Compound)
+
+In code, the notebooks load the CSV splits like:
+
+* Train: hf://datasets/chen1028/Cl-Containing-Compound/train.csv
+* Test:  hf://datasets/chen1028/Cl-Containing-Compound/test.csv
+
+If the hf:// scheme is unavailable in your environment, the notebooks automatically fall back to [https://huggingface.co/datasets/chen1028/Cl-Containing-Compound/resolve/main/train.csv](https://huggingface.co/datasets/chen1028/Cl-Containing-Compound/resolve/main/train.csv) (and test.csv).
+
 
 ---
 
