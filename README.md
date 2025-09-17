@@ -68,9 +68,10 @@ After installing Anaconda:
 ---
 
 
+
 ### 3. Check Your Location and Clone the Repository
 
-In the JupyterLab terminal (or any terminal), check your current folder:
+In the **Anaconda Prompt**, check your current folder:
 
 ```bash
 pwd   # Shows your current directory
