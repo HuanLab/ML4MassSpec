@@ -93,7 +93,7 @@ cd ML4MassSpec
 
 ### 4. Set Up Python Virtual Environment with pip
 
-In your terminal (Command Prompt, Anaconda Prompt, or Terminal), run each command below and read the explanation:
+In your terminal (Anaconda Prompt), run each command below and read the explanation:
 
 ```bash
 # Create a new Python virtual environment named '.venv'
