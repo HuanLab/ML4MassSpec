@@ -30,9 +30,9 @@ Source: [jupyter-notebook.readthedocs.io][2]
 
 ## What You Need
 
-**1. Anaconda (includes Python)**
+**Anaconda (includes Python and all required libraries)**
 
-* Download and install Anaconda from [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution). This will install Python and all required scientific libraries.
+Download and install Anaconda from [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution). This will install everything you need to get started.
 
 **2. (Recommended) Install Anaconda**
 
