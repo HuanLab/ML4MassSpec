@@ -43,16 +43,6 @@ Source: [jupyter-notebook.readthedocs.io][2]
 * *(Optional video walkthrough)*
   [![Watch: Install Anaconda (Windows 11)](https://img.youtube.com/vi/mg6cMkz9Q0c/0.jpg)](https://www.youtube.com/watch?v=mg6cMkz9Q0c) ([YouTube][3])
 
-**3. Jupyter Notebook**
-
-* If you installed Anaconda you already have Jupyter. Simply activate (or open) your Anaconda environment and run:
-
-  ```bash
-  jupyter lab   # or: jupyter notebook
-  ```
-* If a browser does not open automatically, copy the URL with the token from the terminal into your browser.
-* *(Optional video walkthrough)*
-  [![Watch: Jupyter Notebook Tutorial for Beginners](https://img.youtube.com/vi/Ou-7G9VQugg/0.jpg)](https://www.youtube.com/watch?v=Ou-7G9VQugg) ([YouTube][4])
 
 ---
 
@@ -82,7 +72,8 @@ After installing Anaconda:
 1. Open the **Anaconda Navigator** app from your Start menu (Windows) or Applications folder (Mac).
 2. In Anaconda Navigator, click the **Launch** button under Jupyter Notebook or JupyterLab. This will open Jupyter in your web browser—no terminal needed!
 3. (Optional) Inside JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
-
+* *(Optional video walkthrough)*
+  [![Watch: Jupyter Notebook Tutorial for Beginners](https://img.youtube.com/vi/Ou-7G9VQugg/0.jpg)](https://www.youtube.com/watch?v=Ou-7G9VQugg) ([YouTube][4])
 ---
 
 
