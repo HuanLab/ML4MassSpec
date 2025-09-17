@@ -90,23 +90,16 @@ cd ML4MassSpec
 ```
 
 
-### 4. Set Up Conda Environment and Add to Jupyter
-
+### 4. Set Up Conda Environment with environment.yml
 
 In the JupyterLab terminal (or your system terminal), run each command below and read the explanation:
 
 ```bash
-# Create a new conda environment named 'ml4ms' with Python 3.10
-conda create -n ml4ms python=3.10 -y
+# Create a new conda environment named 'ml4ms' with all required packages from environment.yml
+conda env create -f environment.yml
 
 # Activate the new environment
 conda activate ml4ms
-
-# Install all required packages listed in requirements.txt
-conda install --file requirements.txt
-
-# Install the ipykernel package so this environment can be used as a Jupyter kernel
-conda install ipykernel
 
 # Register this environment as a new Jupyter kernel named 'Python (ml4ms)'
 python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
