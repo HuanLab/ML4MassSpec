@@ -11,10 +11,11 @@ dependencies:
   - seaborn
   - jupyterlab
   - ipykernel
-  - pyarrow
   - terminado
-  - pip
-  - pip:
-    - shap
-    - imbalanced-learn
-    - datasets
+  - pywinpty
+  - nodejs
+  - vs2015_runtime
+  - pyarrow=16.1.*
+  - shap
+  - imbalanced-learn
+  - datasets
