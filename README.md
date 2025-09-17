@@ -74,7 +74,7 @@ After installing Anaconda:
 In the **Anaconda Prompt**, check your current folder:
 
 ```bash
-pwd   # Shows your current directory (Linux/macOS/Anaconda Prompt)
+pwd   # Shows your current directory (Linux/macOS terminal)
 cd    # Shows your current directory (Windows Anaconda Prompt)
 ```
 
