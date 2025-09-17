@@ -14,8 +14,6 @@ dependencies:
   - terminado
   - pywinpty
   - nodejs
-  - vs2015_runtime
-  - pyarrow=16.1.*
   - shap
   - imbalanced-learn
   - datasets
