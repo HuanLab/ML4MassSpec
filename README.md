@@ -54,7 +54,7 @@ Make sure you have installed Anaconda as described in the section above. If alre
 python --version
 ```
 
-You should see Python 3.8 or higher. If not, you can specify the version when creating your conda environment in the next step.
+You should see Python 3.8 or higher. If not, you can specify the version when creating your conda environment in the environment setup step.
 
 ### 2. Open Jupyter Notebook (Beginner Friendly)
 
@@ -62,7 +62,7 @@ After installing Anaconda:
 
 1. Open the **Anaconda Navigator** app from your Start menu (Windows) or Applications folder (Mac).
 2. In Anaconda Navigator, click the **Launch** button under Jupyter Notebook or JupyterLab. This will open Jupyter in your web browser.
-3. (Optional) Inside JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
+3. (Optional) Inside Jupyter Notebook or JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
 * *(Optional video walkthrough)*
   [![Watch: Jupyter Notebook Tutorial for Beginners](https://img.youtube.com/vi/Ou-7G9VQugg/0.jpg)](https://www.youtube.com/watch?v=Ou-7G9VQugg) ([YouTube][4])
 ---
@@ -73,8 +73,7 @@ After installing Anaconda:
 In the JupyterLab terminal (or any terminal), check your current folder:
 
 ```bash
-pwd   # Shows your current directory (Mac/Linux/Anaconda Prompt)
-cd    # Shows your current directory (Windows Command Prompt)
+pwd   # Shows your current directory
 ```
 
 Navigate to the folder where you want to store the project:
@@ -93,23 +92,27 @@ cd ML4MassSpec
 
 ### 4. Set Up Conda Environment and Add to Jupyter
 
-In the JupyterLab terminal (or your system terminal):
+
+In the JupyterLab terminal (or your system terminal), run each command below and read the explanation:
 
 ```bash
+# Create a new conda environment named 'ml4ms' with Python 3.10
 conda create -n ml4ms python=3.10 -y
+
+# Activate the new environment
 conda activate ml4ms
+
+# Install all required packages listed in requirements.txt
 conda install --file requirements.txt
+
+# Install the ipykernel package so this environment can be used as a Jupyter kernel
 conda install ipykernel
+
+# Register this environment as a new Jupyter kernel named 'Python (ml4ms)'
 python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
 ```
 
 This will create a new environment, install all required packages, and add it as a selectable kernel in Jupyter.
-
-If you see a message about missing packages, you can also try:
-
-```bash
-pip install -r requirements.txt
-```
 
 ### 5. Select the Environment and Run Code
 
