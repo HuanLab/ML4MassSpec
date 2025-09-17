@@ -14,5 +14,6 @@ dependencies:
   - terminado
   - pip
   - pip:
-      - shap
-      - imbalanced-learn
+    - shap
+    - imbalanced-learn
+    - datasets
