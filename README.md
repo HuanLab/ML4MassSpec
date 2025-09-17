@@ -113,6 +113,31 @@ python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
 ```
 
 This will create a new environment, install all required packages, and add it as a selectable kernel in Jupyter. If you want to use the terminal in JupyterLab, make sure 'terminado' is installed as shown above.
+### 4. Set Up Python Virtual Environment with pip
+
+In your terminal (Anaconda Prompt, Command Prompt, or Terminal), run each command below and read the explanation:
+
+```bash
+# Create a new Python virtual environment named '.venv'
+python -m venv .venv
+
+# Activate the virtual environment
+# On Windows:
+.venv\Scripts\activate
+# On macOS/Linux:
+source .venv/bin/activate
+
+# Upgrade pip (recommended)
+python -m pip install --upgrade pip
+
+# Install all required packages from requirements.txt using pip
+pip install -r requirements.txt
+
+# Register this environment as a new Jupyter kernel named 'Python (ml4ms)'
+python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
+```
+
+This will create a new Python virtual environment, install all required packages, and add it as a selectable kernel in Jupyter. If you want to use the terminal in JupyterLab, make sure 'terminado' is installed as shown above.
 
 ### 5. Select the Environment and Run Code
 

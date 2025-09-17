@@ -1,0 +1,15 @@
+# Python requirements for ML4MassSpec
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyterlab
+ipykernel
+terminado
+pywinpty
+nodejs
+shap
+imbalanced-learn
+datasets
+pyarrow
