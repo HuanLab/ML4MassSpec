@@ -90,9 +90,10 @@ cd ML4MassSpec
 ```
 
 
+
 ### 4. Set Up Conda Environment with environment.yml
 
-In the JupyterLab terminal (or your system terminal), run each command below and read the explanation:
+In the **Anaconda Prompt**, run each command below and read the explanation:
 
 ```bash
 # Create a new conda environment named 'ml4ms' with all required packages from environment.yml
@@ -101,11 +102,14 @@ conda env create -f environment.yml
 # Activate the new environment
 conda activate ml4ms
 
+# (Required for JupyterLab terminal) Install terminado if you want to use the terminal in JupyterLab
+conda install terminado   # or: pip install terminado
+
 # Register this environment as a new Jupyter kernel named 'Python (ml4ms)'
 python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
 ```
 
-This will create a new environment, install all required packages, and add it as a selectable kernel in Jupyter.
+This will create a new environment, install all required packages, and add it as a selectable kernel in Jupyter. If you want to use the terminal in JupyterLab, make sure 'terminado' is installed as shown above.
 
 ### 5. Select the Environment and Run Code
 
