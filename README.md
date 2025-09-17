@@ -62,7 +62,7 @@ After installing Anaconda:
 
 1. Open the **Anaconda Navigator** app from your Start menu (Windows) or Applications folder (Mac).
 2. In Anaconda Navigator, click the **Launch** button under Jupyter Notebook or JupyterLab. This will open Jupyter in your web browser.
-3. (Optional) Inside Jupyter Notebook or JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
+3. Inside Jupyter Notebook or JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
 * *(Optional video walkthrough)*
   [![Watch: Jupyter Notebook Tutorial for Beginners](https://img.youtube.com/vi/Ou-7G9VQugg/0.jpg)](https://www.youtube.com/watch?v=Ou-7G9VQugg) ([YouTube][4])
 ---
