@@ -46,20 +46,15 @@ Source: [jupyter-notebook.readthedocs.io][2]
 ## Quick Start: Local Setup (Recommended)
 
 
-### 1. Install Anaconda (Includes Python)
+### 1. Confirm Anaconda is Installed
 
-Download and install Anaconda for your operating system from [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution). Follow the default installation instructions.
-
-Anaconda comes with Python pre-installed, so you do **not** need to install Python separately.
-
-After installation, you can check your Python version by opening Anaconda Prompt (Windows) or Terminal (Mac/Linux) and running:
+Make sure you have installed Anaconda as described in the "What You Need" section above. If already installed, you can check your Python version by opening Anaconda Prompt (Windows) or Terminal (Mac/Linux) and running:
 
 ```bash
 python --version
 ```
 
 You should see Python 3.8 or higher. If not, you can specify the version when creating your conda environment in the next step.
-
 
 ### 2. Open Jupyter Notebook (Beginner Friendly)
 
