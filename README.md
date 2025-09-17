@@ -71,10 +71,12 @@ After installing Anaconda:
 
 ### 3. Check Your Location and Clone the Repository
 
+
 In the **Anaconda Prompt**, check your current folder:
 
 ```bash
-pwd   # Shows your current directory
+pwd   # Shows your current directory (Linux/macOS/Anaconda Prompt)
+cd    # Shows your current directory (Windows Anaconda Prompt)
 ```
 
 Navigate to the folder where you want to store the project:
