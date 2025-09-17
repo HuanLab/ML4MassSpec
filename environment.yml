@@ -1,19 +1,21 @@
 name: ml4ms
 channels:
-  - conda-forge
   - defaults
 dependencies:
   - python=3.10
-  - numpy
-  - pandas
-  - scikit-learn
-  - matplotlib
-  - seaborn
-  - jupyterlab
+  - pip
   - ipykernel
-  - terminado
-  - pywinpty
-  - nodejs
-  - shap
-  - imbalanced-learn
-  - datasets
+  - pip:
+      - numpy
+      - pandas
+      - scikit-learn
+      - matplotlib
+      - seaborn
+      - jupyterlab
+      - terminado
+      - pywinpty
+      - nodejs
+      - shap
+      - imbalanced-learn
+      - datasets
+      - pyarrow
