@@ -123,6 +123,7 @@ This will create a new Python virtual environment, install all required packages
 In Jupyter Notebook or JupyterLab, open the `notebooks/` folder and start with `1_Data_Preparation.ipynb`.
 
 At the top of the notebook, select the kernel named **Python (ml4ms)**. This ensures your code runs in the correct environment.
+
 ![Select Kernel](images/virtual_env.png)
 ---
 
