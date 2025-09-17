@@ -50,161 +50,80 @@ Source: [jupyter-notebook.readthedocs.io][2]
   jupyter lab   # or: jupyter notebook
   ```
 * If a browser does not open automatically, copy the URL with the token from the terminal into your browser.
-* For remote servers (optional): run `jupyter lab --no-browser --port 8888` remotely and SSH tunnel: `ssh -N -L 8888:localhost:8888 user@remote_host` then open [http://localhost:8888](http://localhost:8888).
 * *(Optional video walkthrough)*
   [![Watch: Jupyter Notebook Tutorial for Beginners](https://img.youtube.com/vi/Ou-7G9VQugg/0.jpg)](https://www.youtube.com/watch?v=Ou-7G9VQugg) ([YouTube][4])
 
 ---
 
-## How to Set Up (Step by Step)
 
-### 0. Install Git Bash (Windows Only)
+## Quick Start: Local Setup (Recommended)
 
-If you are using Windows, it’s recommended to install Git Bash. This gives you a terminal similar to Mac/Linux and makes following the instructions easier.
+### 1. Install Anaconda
 
-1. Download Git Bash from the official website: [https://gitforwindows.org/](https://gitforwindows.org/)
-2. Run the installer and follow the prompts (default options are fine).
-3. After installation, you can open “Git Bash” from your Start menu.
+Download and install Anaconda for your operating system from [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution). Follow the default installation instructions.
 
-If you are on Mac or Linux, you already have a terminal installed.
+*Optional video walkthrough: [Install Anaconda (Windows 11)](https://www.youtube.com/watch?v=mg6cMkz9Q0c)*
 
----
+### 2. Open Jupyter Notebook and a Terminal
 
-### 1. Download the Tutorial
+After installing Anaconda:
 
-Click the green “Code” button on this page and choose “Download ZIP”. Unzip the file to a folder on your computer.
+1. Launch "Anaconda Navigator" and open Jupyter Notebook (or JupyterLab), **or** open a terminal (Anaconda Prompt on Windows, Terminal on Mac/Linux) and run:
+   ```bash
+   jupyter notebook
+   # or
+   jupyter lab
+   ```
+2. In Jupyter, use the menu to open a new terminal tab (or use your system terminal).
 
-Or, if you know how to use git:
+### 3. Change Directory and Clone the Repository
+
+In the terminal, navigate to the folder where you want to store the project. For example:
+
+```bash
+cd ~/desired/path
+```
+
+Then clone the repository:
 
 ```bash
 git clone https://github.com/HuanLab/ML4MassSpec.git
+cd ML4MassSpec
 ```
 
-### 2. Open a Terminal or Command Prompt
+### 4. Set Up Conda Environment and Install Packages
 
-* **Windows:** Search for “Anaconda Prompt” or “Command Prompt” in your Start menu.
-* **Mac:** Open “Terminal” from Applications > Utilities.
-* **Linux:** Open your usual terminal.
-
-Use the `cd` command to go to the folder where you unzipped or cloned the tutorial.
-
-Examples (copy one that matches your system):
-
-* Windows (if you downloaded a ZIP to Downloads):
-
-  ```bat
-  cd "C:\Users\YourName\Downloads\ML4MassSpec"
-  ```
-
-  If you cloned with `git clone` in your home folder, it likely created a folder named `ML4MassSpec` there:
-
-  ```bat
-  cd "C:\Users\YourName\ML4MassSpec"
-  ```
-
-* macOS:
-
-  ```bash
-  cd ~/Downloads/ML4MassSpec
-  # or, if you cloned in your home folder
-  cd ~/ML4MassSpec
-  ```
-
-* Linux:
-
-  ```bash
-  cd ~/Downloads/ML4MassSpec
-  # or, if you cloned in your home folder
-  cd ~/ML4MassSpec
-  ```
-
-Tips for beginners:
-
-* Paths with spaces must be quoted, e.g., `cd "C:\Users\Your Name\Documents\ML4MassSpec"` or `cd "/Users/Your Name/ML4MassSpec"`.
-* Press the Tab key after typing part of a folder name to auto-complete.
-* After changing directory, you can run `pwd` (macOS/Linux) or `cd` (Windows) to confirm your current folder.
-
-### 3. (Optional) Create and Activate a Virtual Environment
-
-Creating a separate environment keeps this tutorial’s packages isolated and avoids conflicts.
-
-Option A — Built-in Python venv (works without Anaconda):
-
-* macOS/Linux:
-
-  ```bash
-  python3 -m venv .venv
-  source .venv/bin/activate
-  ```
-* Windows (Command Prompt or PowerShell):
-
-  ```bat
-  python -m venv .venv
-  .venv\Scripts\activate
-  ```
-
-Option B — Conda (if you use Anaconda/Miniconda):
+Create a new conda environment and install all required packages:
 
 ```bash
 conda create -n ml4ms python=3.10 -y
 conda activate ml4ms
+conda install --file requirements.txt
 ```
 
-How to know it worked: your terminal prompt will start with the environment name, like `(ml4ms)` or `(.venv)`.
-
-If you prefer not to use a virtual environment, you can skip this step.
-
-Deactivate the environment when you're done:
-
-* If you used Python venv (or most shells):
-
-  ```bash
-  deactivate
-  ```
-* If you used Conda:
-
-  ```bash
-  conda deactivate
-  ```
-
-Tip: Simply closing the terminal window also ends the environment session.
-
-### 4. Install All Required Packages
-
-This tutorial uses several Python libraries. You can install them all at once using the provided requirements file. Just copy and paste this command:
+If you see a message about missing packages, you can also try:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-If you see an error about `pip` not being found, try `python -m pip install -r requirements.txt` instead.
+### 5. Activate the Environment and Run Code
 
-If you are using Anaconda, you can also use:
+Make sure your conda environment is activated:
 
 ```bash
-conda install --file requirements.txt
+conda activate ml4ms
 ```
 
-Optional but helpful:
-
-* Upgrade pip first if installation complains:
-
-  ```bash
-  python -m pip install --upgrade pip
-  ```
-* If you created a virtual environment, ensure it’s activated before running `pip`.
-
-### 5. Start Jupyter Notebook
-
-In the same terminal, type:
+Then start Jupyter Notebook (if not already running):
 
 ```bash
 jupyter notebook
+# or
+jupyter lab
 ```
 
-This will open a new window in your web browser.
-
-If you see an error, make sure you installed Jupyter as shown above.
+Open the `notebooks/` folder and start with `1_Data_Preparation.ipynb`.
 
 ---
 
