@@ -48,7 +48,7 @@ Source: [jupyter-notebook.readthedocs.io][2]
 
 ### 1. Confirm Anaconda is Installed
 
-Make sure you have installed Anaconda as described in the "What You Need" section above. If already installed, you can check your Python version by opening Anaconda Prompt (Windows) or Terminal (Mac/Linux) and running:
+Make sure you have installed Anaconda as described in the section above. If already installed, you can check your Python version by opening Anaconda Prompt (Windows) or Terminal (Mac/Linux) and running:
 
 ```bash
 python --version
