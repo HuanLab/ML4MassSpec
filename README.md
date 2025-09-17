@@ -32,10 +32,6 @@ Source: [jupyter-notebook.readthedocs.io][2]
 
 **Anaconda (includes Python and all required libraries)**
 
-Download and install Anaconda from [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution). This will install everything you need to get started.
-
-**2. (Recommended) Install Anaconda**
-
 * Anaconda is a free distribution of Python that includes Jupyter Notebook and many scientific libraries. It makes setup easier for beginners.
 * Download the installer for your operating system from: [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
 * Run the installer and follow the instructions (default options are fine).
