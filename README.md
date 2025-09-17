@@ -27,11 +27,12 @@ Source: [jupyter-notebook.readthedocs.io][2]
 
 ---
 
+
 ## What You Need
 
-**1. Python 3.8 or higher**
+**1. Anaconda (includes Python)**
 
-* If you do not have Python, you can either download and install it from [python.org](https://www.python.org/downloads/) or install the Anaconda distribution (recommended for beginners).
+* Download and install Anaconda from [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution). This will install Python and all required scientific libraries.
 
 **2. (Recommended) Install Anaconda**
 
@@ -58,9 +59,20 @@ Source: [jupyter-notebook.readthedocs.io][2]
 
 ## Quick Start: Local Setup (Recommended)
 
-### 1. Install Anaconda
+
+### 1. Install Anaconda (Includes Python)
 
 Download and install Anaconda for your operating system from [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution). Follow the default installation instructions.
+
+Anaconda comes with Python pre-installed, so you do **not** need to install Python separately.
+
+After installation, you can check your Python version by opening Anaconda Prompt (Windows) or Terminal (Mac/Linux) and running:
+
+```bash
+python --version
+```
+
+You should see Python 3.8 or higher. If not, you can specify the version when creating your conda environment in the next step.
 
 *Optional video walkthrough: [Install Anaconda (Windows 11)](https://www.youtube.com/watch?v=mg6cMkz9Q0c)*
 
