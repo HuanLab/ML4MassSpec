@@ -91,9 +91,10 @@ git clone https://github.com/HuanLab/ML4MassSpec.git
 cd ML4MassSpec
 ```
 
+
 ### 4. Set Up Python Virtual Environment with pip
 
-In your terminal (Anaconda Prompt), run each command below and read the explanation:
+For **Windows**, use the Anaconda Prompt. For **Mac**, use the Terminal app. Run each command below and read the explanation:
 
 ```bash
 # Create a new Python virtual environment named '.venv'
@@ -122,7 +123,7 @@ This will create a new Python virtual environment, install all required packages
 In Jupyter Notebook or JupyterLab, open the `notebooks/` folder and start with `1_Data_Preparation.ipynb`.
 
 At the top of the notebook, select the kernel named **Python (ml4ms)**. This ensures your code runs in the correct environment.
-
+![Select Kernel](images/virtual_env.png)
 ---
 
 ## How to Use the Tutorial
