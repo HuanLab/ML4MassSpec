@@ -12,7 +12,7 @@ This tutorial will help you:
 * Train and evaluate machine learning models
 * Understand and interpret model results
 
-You will use interactive notebooks (Jupyter Notebooks) that let you run code and see results immediately, with explanations at every step.
+You will use interactive notebooks inside **JupyterLab** (an advanced interface for working with Jupyter Notebooks). Jupyter Notebooks are documents that let you write and run code, see results immediately, and add explanations or notes—all in one place. JupyterLab makes it easy to organize, edit, and run these notebooks in your web browser.
 
 ---
 
@@ -49,7 +49,7 @@ Source: [jupyter-notebook.readthedocs.io][2]
 
 Make sure you have installed Anaconda as described in the section above. Successful installation can be verified by running the **Anaconda Navigator** software.
 
-If already installed, you can check your Python version by opening Anaconda Prompt (Windows) or Terminal (Mac/Linux) and running:
+Anaconda comes with Python pre-installed, so you do **not** need to install Python separately. After Anaconda installation, you can check your Python version by opening Anaconda Prompt (Windows) or Terminal (Mac/Linux) and running:
 
 ```bash
 python --version
@@ -83,6 +83,8 @@ cd ML4MassSpec
 
 ### 3. Set Up Python Virtual Environment with pip
 
+Creating a separate environment keeps this tutorial’s packages isolated and avoids conflicts.
+
 For **Windows**, use the Anaconda Prompt. For **Mac**, use the Terminal app. Run each command below and read the explanation:
 
 ```bash
@@ -107,6 +109,18 @@ python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
 
 This will create a new Python virtual environment, install all required packages, and add it as a selectable kernel in Jupyter. If you want to use the terminal in JupyterLab, make sure 'terminado' is installed as shown above.
 
+How to know it worked: your terminal prompt will show `(.venv)` (or similar) at the beginning, indicating the environment is active.
+
+If you prefer not to use a virtual environment, you can skip this step.
+
+Deactivate the environment when you're done:
+
+```bash
+deactivate
+```
+
+Tip: Simply closing the terminal window also ends the environment session.
+
 ### 4. Open Jupyter Notebook (Beginner Friendly)
 
 After installing Anaconda:
@@ -120,7 +134,7 @@ After installing Anaconda:
 
 ### 5. Select the Environment and Run Code
 
-In Jupyter Notebook or JupyterLab, open the `notebooks/` folder and start with `1_Data_Preparation.ipynb`.
+In JupyterLab, open the `notebooks/` folder and start with `1_Data_Preparation.ipynb`.
 
 At the top of the notebook, select the kernel named **Python (ml4ms)**. This ensures your code runs in the correct environment.
 
