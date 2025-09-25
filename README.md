@@ -84,6 +84,8 @@ cd ML4MassSpec
 
 Creating a separate environment keeps this tutorial’s packages isolated and avoids conflicts. This is a good habit for any Python project, as it prevents package version clashes and makes it easier to reproduce your work or share it with others. By using a virtual environment, you ensure that your setup is clean and independent from other projects or system-wide packages.
 
+**Before running the following commands, make sure you are inside the `ML4MassSpec` project folder.**
+
 For **Windows**, use the Anaconda Prompt. For **Mac**, use the Terminal app. Run each command below and read the explanation:
 
 ```bash
