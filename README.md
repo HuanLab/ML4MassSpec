@@ -45,10 +45,11 @@ Source: [jupyter-notebook.readthedocs.io][2]
 
 ## Quick Start: Local Setup (Recommended)
 
+### 1. Anaconda Installation Verification
 
-### 1. Confirm Anaconda is Installed
+Make sure you have installed Anaconda as described in the section above. Successful installation can be verified by running the **Anaconda Navigator** software.
 
-Make sure you have installed Anaconda as described in the section above. If already installed, you can check your Python version by opening Anaconda Prompt (Windows) or Terminal (Mac/Linux) and running:
+If already installed, you can check your Python version by opening Anaconda Prompt (Windows) or Terminal (Mac/Linux) and running:
 
 ```bash
 python --version
@@ -56,19 +57,7 @@ python --version
 
 You should see Python 3.8 or higher. If not, you can specify the version when creating your conda environment in the environment setup step.
 
-### 2. Open Jupyter Notebook (Beginner Friendly)
-
-After installing Anaconda:
-
-1. Open the **Anaconda Navigator** app from your Start menu (Windows) or Applications folder (Mac).
-2. In Anaconda Navigator, click the **Launch** button under Jupyter Notebook or JupyterLab. This will open Jupyter in your web browser.
-3. Inside Jupyter Notebook or JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
-* *(Optional video walkthrough)*
-  [![Watch: Jupyter Notebook Tutorial for Beginners](https://img.youtube.com/vi/Ou-7G9VQugg/0.jpg)](https://www.youtube.com/watch?v=Ou-7G9VQugg) ([YouTube][4])
----
-
-
-### 3. Check Your Location and Clone the Repository
+### 2. Check Your Location and Clone the Repository
 
 
 In the **Anaconda Prompt**, check your current folder:
@@ -92,7 +81,7 @@ cd ML4MassSpec
 ```
 
 
-### 4. Set Up Python Virtual Environment with pip
+### 3. Set Up Python Virtual Environment with pip
 
 For **Windows**, use the Anaconda Prompt. For **Mac**, use the Terminal app. Run each command below and read the explanation:
 
@@ -117,6 +106,17 @@ python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
 ```
 
 This will create a new Python virtual environment, install all required packages, and add it as a selectable kernel in Jupyter. If you want to use the terminal in JupyterLab, make sure 'terminado' is installed as shown above.
+
+### 4. Open Jupyter Notebook (Beginner Friendly)
+
+After installing Anaconda:
+
+1. Open the **Anaconda Navigator** app from your Start menu (Windows) or Applications folder (Mac).
+2. In Anaconda Navigator, click the **Launch** button under Jupyter Notebook or JupyterLab. This will open Jupyter in your web browser.
+3. Inside Jupyter Notebook or JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
+* *(Optional video walkthrough)*
+  [![Watch: Jupyter Notebook Tutorial for Beginners](https://img.youtube.com/vi/Ou-7G9VQugg/0.jpg)](https://www.youtube.com/watch?v=Ou-7G9VQugg) ([YouTube][4])
+---
 
 ### 5. Select the Environment and Run Code
 
