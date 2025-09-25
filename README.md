@@ -82,9 +82,9 @@ cd ML4MassSpec
 
 ### 3. Set Up Python Virtual Environment with pip
 
-Creating a separate environment keeps this tutorial’s packages isolated and avoids conflicts. This is a good habit for any Python project, as it prevents package version clashes and makes it easier to reproduce your work or share it with others. 
-
 (Optional) If you skip this step, all packages will be installed system-wide. This can work, but may cause conflicts with other projects and is harder to reproduce. Using a virtual environment is safer and more reproducible for most users.
+
+Creating a separate environment keeps this tutorial’s packages isolated and avoids conflicts. This is a good habit for any Python project, as it prevents package version clashes and makes it easier to reproduce your work or share it with others. 
 
 **Before running the following commands, make sure you are inside the `ML4MassSpec` project folder as descibed in step 2.**
 
