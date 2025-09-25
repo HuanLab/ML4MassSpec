@@ -22,8 +22,7 @@ You will use interactive notebooks inside **JupyterLab** (an advanced interface 
 ![Typical ML workflow diagram](images/workflow.png)
 
 **Jupyter Notebook interface (what you’ll see)**
-![Jupyter Notebook interface](images/jupyter_notebook.png)
-Source: [jupyter-notebook.readthedocs.io][2]
+![Jupyter Notebook interface](images/jupyterlab_interface.PNG)
 
 ---
 
@@ -83,7 +82,7 @@ cd ML4MassSpec
 
 ### 3. Set Up Python Virtual Environment with pip
 
-Creating a separate environment keeps this tutorial’s packages isolated and avoids conflicts.
+Creating a separate environment keeps this tutorial’s packages isolated and avoids conflicts. This is a good habit for any Python project, as it prevents package version clashes and makes it easier to reproduce your work or share it with others. By using a virtual environment, you ensure that your setup is clean and independent from other projects or system-wide packages.
 
 For **Windows**, use the Anaconda Prompt. For **Mac**, use the Terminal app. Run each command below and read the explanation:
 
