@@ -84,7 +84,7 @@ cd ML4MassSpec
 
 Creating a separate environment keeps this tutorial’s packages isolated and avoids conflicts. This is a good habit for any Python project, as it prevents package version clashes and makes it easier to reproduce your work or share it with others. By using a virtual environment, you ensure that your setup is clean and independent from other projects or system-wide packages.
 
-**Before running the following commands, make sure you are inside the `ML4MassSpec` project folder.**
+**Before running the following commands, make sure you are inside the `ML4MassSpec` project folder as descibed in step 2.**
 
 For **Windows**, use the Anaconda Prompt. For **Mac**, use the Terminal app. Run each command below and read the explanation:
 
@@ -108,7 +108,7 @@ pip install -r requirements.txt
 python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
 ```
 
-This will create a new Python virtual environment, install all required packages, and add it as a selectable kernel in Jupyter. If you want to use the terminal in JupyterLab, make sure 'terminado' is installed as shown above.
+This will create a new Python virtual environment, install all required packages listed in **requirements.txt** file, and add it as a selectable kernel in Jupyter. If you want to use the terminal in JupyterLab, make sure 'terminado' is installed as shown above.
 
 How to know it worked: your terminal prompt will show `(.venv)` (or similar) at the beginning, indicating the environment is active.
 
@@ -122,13 +122,15 @@ deactivate
 
 Tip: Simply closing the terminal window also ends the environment session.
 
-### 4. Open Jupyter Notebook (Beginner Friendly)
+### 4. Open JupyterLab and Load a Notebook (Recommended)
 
 After installing Anaconda:
 
 1. Open the **Anaconda Navigator** app from your Start menu (Windows) or Applications folder (Mac).
-2. In Anaconda Navigator, click the **Launch** button under Jupyter Notebook or JupyterLab. This will open Jupyter in your web browser.
-3. Inside Jupyter Notebook or JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
+2. In Anaconda Navigator, click the **Launch** button under JupyterLab. This will open JupyterLab in your web browser.
+3. In JupyterLab, use the file browser (on the left) to navigate to the `notebooks/` folder inside your `ML4MassSpec` project.
+4. Double-click on **ipynb** file to open the notebook and get started.
+5. (Optional) Inside JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
 * *(Optional video walkthrough)*
   [![Watch: Jupyter Notebook Tutorial for Beginners](https://img.youtube.com/vi/Ou-7G9VQugg/0.jpg)](https://www.youtube.com/watch?v=Ou-7G9VQugg) ([YouTube][4])
 ---
