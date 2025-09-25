@@ -82,7 +82,7 @@ cd ML4MassSpec
 
 ### 3. Set Up Python Virtual Environment with pip
 
-Creating a separate environment keeps this tutorial’s packages isolated and avoids conflicts. This is a good habit for any Python project, as it prevents package version clashes and makes it easier to reproduce your work or share it with others. By using a virtual environment, you ensure that your setup is clean and independent from other projects or system-wide packages.
+Creating a separate environment keeps this tutorial’s packages isolated and avoids conflicts. This is a good habit for any Python project, as it prevents package version clashes and makes it easier to reproduce your work or share it with others. By using a virtual environment, you ensure that your setup is clean and independent from other projects or system-wide packages. If you prefer not to use a virtual environment, you can skip this step. In that case, all packages will be installed into your system-wide Python environment. This works, but is not recommended for most users because it can lead to conflicts between packages required by different projects, and may make it harder to reproduce your setup later. Using a virtual environment is safer and more reproducible, but skipping it is possible if you are comfortable managing your system Python packages.
 
 **Before running the following commands, make sure you are inside the `ML4MassSpec` project folder as descibed in step 2.**
 
@@ -111,8 +111,6 @@ python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
 This will create a new Python virtual environment, install all required packages listed in **requirements.txt** file, and add it as a selectable kernel in Jupyter. If you want to use the terminal in JupyterLab, make sure 'terminado' is installed as shown above.
 
 How to know it worked: your terminal prompt will show `(.venv)` (or similar) at the beginning, indicating the environment is active.
-
-If you prefer not to use a virtual environment, you can skip this step.
 
 Deactivate the environment when you're done:
 
