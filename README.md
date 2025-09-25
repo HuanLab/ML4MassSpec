@@ -80,7 +80,7 @@ cd ML4MassSpec
 ```
 
 
-### 3. Set Up a Python Virtual Environment (pip)
+### 3. Set Up a Python Virtual Environment
 
 **Why use a virtual environment?**
 
