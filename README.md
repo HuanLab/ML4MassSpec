@@ -12,14 +12,21 @@ This tutorial will help you:
 * Train and evaluate machine learning models
 * Understand and interpret model results
 
-You will use **Jupyter Notebooks** through **JupyterLab** (a web-based development environment). Jupyter Notebook is an open-source, web-based interactive computing environment that combine:
+You will work with **notebook files** (.ipynb) using **JupyterLab** as your development environment. Here's what each component does:
 
-* **Live code cells** - Write and execute Python code line by line
-* **Output visualization** - See plots, tables, and results instantly below each code cell  
-* **Markdown text** - Add explanations, notes, and formatted text between code sections
-* **Persistent state** - Variables and data stay in memory as you work through the notebook
+**Notebook files** (.ipynb) are interactive documents that contain:
+* **Code cells** - Write and execute Python code that runs line by line
+* **Output displays** - See results, plots, and tables appear directly below code cells
+* **Markdown cells** - Add formatted text, explanations, and documentation
+* **Shared memory** - Variables persist between cells during your session
 
-JupyterLab provides the interface to create, edit, and run these notebooks in your web browser, making data analysis interactive and reproducible.
+**JupyterLab** is the modern web-based environment that lets you:
+* Open, edit, and run multiple notebook files in browser tabs
+* Browse files and folders in a sidebar
+* View outputs and manage your Python environment
+* Access an integrated terminal when needed
+
+Note: JupyterLab is the successor to the original **Jupyter Notebook** application. Both are web-based environments for working with .ipynb files, but JupyterLab offers a more advanced interface with better file management and multi-document support.
 
 ---
 
