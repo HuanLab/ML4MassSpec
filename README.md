@@ -48,7 +48,6 @@ Note: JupyterLab is the successor to the original **Jupyter Notebook** applicati
 * Anaconda is a free distribution of Python that includes Jupyter Notebook and many scientific libraries. It makes setup easier for beginners.
 * Download the installer for your operating system from: [https://www.anaconda.com/products/distribution](https://www.anaconda.com/products/distribution)
 * Run the installer and follow the instructions (default options are fine).
-* After installation, you can open the "Anaconda Prompt" (Windows) or use your terminal (Mac/Linux) to continue.
 * *(Optional video walkthrough)*
   [![Watch: Install Anaconda (Windows 11)](https://img.youtube.com/vi/mg6cMkz9Q0c/0.jpg)](https://www.youtube.com/watch?v=mg6cMkz9Q0c) ([YouTube][3])
 
