@@ -105,7 +105,7 @@ cd ML4MassSpec
 
 **Before running the following commands, make sure you are inside the `ML4MassSpec` project folder as descibed in step 2.**
 
-The following commands will create a new Python virtual environment, install all required packages listed in **requirements.txt** file, and add it as a selectable kernel in Jupyter. If you want to use the terminal in JupyterLab, make sure 'terminado' is listed in requirements.txt installed as shown below.
+The following commands will create a new Python virtual environment, install all required packages listed in **requirements.txt** file, and add it as a selectable kernel in Jupyter. If you want to use the **terminal** in JupyterLab, make sure 'terminado' is listed in requirements.txt installed as shown below.
 
 For **Windows**, use the Anaconda Prompt. For **Mac**, use the Terminal app. Run each command below:
 
