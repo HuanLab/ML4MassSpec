@@ -72,7 +72,7 @@ You should see Python 3.8 or higher.
 ### 2. Check Your Location and Clone the Repository
 
 
-In the **Anaconda Prompt**, check your current folder:
+In the **Anaconda Prompt** for Windows or **terminal** for Mac, check your current folder:
 
 ```bash
 pwd   # Shows your current directory (Linux/macOS terminal)
