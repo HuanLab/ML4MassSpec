@@ -147,8 +147,10 @@ After following above steps:
 2. In Anaconda Navigator, click the **Launch** button under JupyterLab. This will open JupyterLab in your web browser.
 3. In JupyterLab, use the file browser (on the left) to navigate to the `notebooks/` folder inside your `ML4MassSpec` project.
 4. Double-click on target **ipynb** file to open the notebook and get started.
+
 ![Select Kernel](images/files.PNG)
 5. (Optional) Inside JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
+
 ![Select Kernel](images/terminal.PNG)
 ---
 
