@@ -1,4 +1,7 @@
-# Tutorial of Machine Learning in Metabolomics
+# Tutorial of Machine Learning in Met**Jupyter Notebook interface (what you'll see)**
+<div align="center">
+<img src="images/jupyterlab_interface.PNG" alt="Jupyter Notebook interface">
+</div>olomics
 
 Welcome! This repository is a step-by-step beginner’s guide to using machine learning for metabolomics data. You do not need any coding experience to get started. All instructions are written for absolute beginners.
 
@@ -33,7 +36,9 @@ Note: JupyterLab is the successor to the original **Jupyter Notebook** applicati
 ## Visual Overview
 
 **Typical ML Workflow (high level)**
-![Typical ML workflow diagram](images/workflow.png)
+<div align="center">
+<img src="images/workflow.png" alt="Typical ML workflow diagram">
+</div>
 
 **Jupyter Notebook interface (what you’ll see)**
 ![Jupyter Notebook interface](images/jupyterlab_interface.PNG)
@@ -148,10 +153,14 @@ After following above steps:
 3. In JupyterLab, use the file browser (on the left) to navigate to the `notebooks/` folder inside your `ML4MassSpec` project.
 4. Double-click on target **ipynb** file to open the notebook and get started.
 
-![Select Kernel](images/files.PNG)
+<div align="center">
+<img src="images/files.PNG" alt="JupyterLab File Browser">
+</div>
 5. (Optional) Inside JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
 
-<img src="images/terminal.PNG" alt="JupyterLab Terminal" width="600">
+<div align="center">
+<img src="images/terminal.PNG" alt="JupyterLab Terminal" width="400">
+</div>
 
 ---
 
@@ -161,7 +170,9 @@ In JupyterLab, open the `notebooks/` folder and start with `1_Data_Preparation.i
 
 At the top of the notebook, select the kernel named **Python (ml4ms)**. This ensures your code runs in the correct environment.
 
-![Select Kernel](images/virtual_env.png)
+<div align="center">
+<img src="images/virtual_env.png" alt="Select Kernel">
+</div>
 ---
 
 ## How to Use the Tutorial
