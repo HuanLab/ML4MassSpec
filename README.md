@@ -151,7 +151,8 @@ After following above steps:
 ![Select Kernel](images/files.PNG)
 5. (Optional) Inside JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
 
-![Select Kernel](images/terminal.PNG)
+<img src="images/terminal.PNG" alt="JupyterLab Terminal" width="600">
+
 ---
 
 ### 5. Select the Environment and Run Code
