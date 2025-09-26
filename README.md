@@ -151,7 +151,7 @@ After following above steps:
 4. Double-click on target **ipynb** file to open the notebook and get started.
 
 <div align="center">
-<img src="images/files.PNG" alt="JupyterLab File Browser">
+<img src="images/files.PNG" alt="JupyterLab File Browser" width="600">
 </div>
 5. (Optional) Inside JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
 
@@ -168,7 +168,7 @@ In JupyterLab, open the `notebooks/` folder and start with `1_Data_Preparation.i
 At the top of the notebook, select the kernel named **Python (ml4ms)**. This ensures your code runs in the correct environment.
 
 <div align="center">
-<img src="images/virtual_env.png" alt="Select Kernel">
+<img src="images/virtual_env.png" alt="Select Kernel" width="600">
 </div>
 ---
 
