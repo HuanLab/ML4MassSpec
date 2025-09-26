@@ -12,7 +12,14 @@ This tutorial will help you:
 * Train and evaluate machine learning models
 * Understand and interpret model results
 
-You will use interactive notebooks inside **JupyterLab** (an advanced interface for working with Jupyter Notebooks). Jupyter Notebooks are documents that let you write and run code, see results immediately, and add explanations or notes—all in one place. JupyterLab makes it easy to organize, edit, and run these notebooks in your web browser.
+You will use **Jupyter Notebooks** through **JupyterLab** (a web-based development environment). Jupyter Notebooks are interactive computational documents that combine:
+
+* **Live code cells** - Write and execute Python code line by line
+* **Output visualization** - See plots, tables, and results instantly below each code cell  
+* **Markdown text** - Add explanations, notes, and formatted text between code sections
+* **Persistent state** - Variables and data stay in memory as you work through the notebook
+
+JupyterLab provides the interface to create, edit, and run these notebooks in your web browser, making data analysis interactive and reproducible.
 
 ---
 
@@ -54,7 +61,7 @@ Anaconda comes with Python pre-installed, so you do **not** need to install Pyth
 python --version
 ```
 
-You should see Python 3.8 or higher. If not, you can specify the version when creating your conda environment in the environment setup step.
+You should see Python 3.8 or higher.
 
 ### 2. Check Your Location and Clone the Repository
 
@@ -72,7 +79,7 @@ Navigate to the folder where you want to store the project:
 cd ~/desired/path
 ```
 
-Then clone the repository:
+Then clone the repository to the target folder:
 
 ```bash
 git clone https://github.com/HuanLab/ML4MassSpec.git
@@ -92,7 +99,9 @@ cd ML4MassSpec
 
 **Before running the following commands, make sure you are inside the `ML4MassSpec` project folder as descibed in step 2.**
 
-For **Windows**, use the Anaconda Prompt. For **Mac**, use the Terminal app. Run each command below and read the explanation:
+The following commands will create a new Python virtual environment, install all required packages listed in **requirements.txt** file, and add it as a selectable kernel in Jupyter. If you want to use the terminal in JupyterLab, make sure 'terminado' is installed as shown below.
+
+For **Windows**, use the Anaconda Prompt. For **Mac**, use the Terminal app. Run each command below:
 
 ```bash
 # Create a new Python virtual environment named '.venv'
@@ -114,8 +123,6 @@ pip install -r requirements.txt
 python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
 ```
 
-This will create a new Python virtual environment, install all required packages listed in **requirements.txt** file, and add it as a selectable kernel in Jupyter. If you want to use the terminal in JupyterLab, make sure 'terminado' is installed as shown above.
-
 How to know it worked: your terminal prompt will show `(.venv)` (or similar) at the beginning, indicating the environment is active.
 
 Deactivate the environment when you're done:
@@ -128,12 +135,12 @@ Tip: Simply closing the terminal window also ends the environment session.
 
 ### 4. Open JupyterLab and Load a Notebook (Recommended)
 
-After installing Anaconda:
+After following above steps:
 
 1. Open the **Anaconda Navigator** app from your Start menu (Windows) or Applications folder (Mac).
 2. In Anaconda Navigator, click the **Launch** button under JupyterLab. This will open JupyterLab in your web browser.
 3. In JupyterLab, use the file browser (on the left) to navigate to the `notebooks/` folder inside your `ML4MassSpec` project.
-4. Double-click on **ipynb** file to open the notebook and get started.
+4. Double-click on target **ipynb** file to open the notebook and get started.
 5. (Optional) Inside JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
 * *(Optional video walkthrough)*
   [![Watch: Jupyter Notebook Tutorial for Beginners](https://img.youtube.com/vi/Ou-7G9VQugg/0.jpg)](https://www.youtube.com/watch?v=Ou-7G9VQugg) ([YouTube][4])
