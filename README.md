@@ -12,7 +12,7 @@ This tutorial will help you:
 * Train and evaluate machine learning models
 * Understand and interpret model results
 
-You will use **Jupyter Notebooks** through **JupyterLab** (a web-based development environment). Jupyter Notebooks are interactive computational documents that combine:
+You will use **Jupyter Notebooks** through **JupyterLab** (a web-based development environment). Jupyter Notebook is an open-source, web-based interactive computing environment that combine:
 
 * **Live code cells** - Write and execute Python code line by line
 * **Output visualization** - See plots, tables, and results instantly below each code cell  
