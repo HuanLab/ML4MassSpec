@@ -1,7 +1,4 @@
 # Tutorial of Machine Learning in Met**Jupyter Notebook interface (what you'll see)**
-<div align="center">
-<img src="images/jupyterlab_interface.PNG" alt="Jupyter Notebook interface">
-</div>olomics
 
 Welcome! This repository is a step-by-step beginner’s guide to using machine learning for metabolomics data. You do not need any coding experience to get started. All instructions are written for absolute beginners.
 
