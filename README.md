@@ -99,17 +99,11 @@ sudo apt update
 sudo apt install git -y
 ```
 
-- Fedora:
-
-```bash
-sudo dnf install git -y
-```
-
 - Windows: Download and run the Git for Windows installer:
 
 https://gitforwindows.org/
 
-Alternative without Git: visit the repository page on GitHub, click the green "Code" button and choose "Download ZIP", then extract the archive and open the extracted folder.
+Alternative without Git: visit the repository page on GitHub, click the green "Code" button and choose "Download ZIP", then extract the archive and open the extracted folder. Note: this works for a one-time download but is not recommended because it does not include the repository history, makes it harder to update the project later (you can't easily pull new changes), and may miss any large-file or submodule handling. Cloning with Git is the preferred option for ongoing development and easy updates.
 
 ### 3. Check Your Location and Clone the Repository
 
