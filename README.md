@@ -71,7 +71,47 @@ python --version
 
 You should see Python 3.8 or higher.
 
-### 2. Check Your Location and Clone the Repository
+### 2. Ensure Git is installed (optional)
+
+Before cloning the repository, make sure Git is available on your system. If you already have Git, you can skip this step.
+
+Check if Git is installed:
+
+```bash
+git --version
+```
+
+If that prints a version number, you're ready to clone. If not, install Git using one of the commands below or download the project as a ZIP from GitHub.
+
+Quick install (common platforms):
+
+- macOS (Homebrew):
+
+```bash
+brew install git
+# or install Apple command-line tools: xcode-select --install
+```
+
+- Ubuntu / Debian:
+
+```bash
+sudo apt update
+sudo apt install git -y
+```
+
+- Fedora:
+
+```bash
+sudo dnf install git -y
+```
+
+- Windows: Download and run the Git for Windows installer:
+
+https://gitforwindows.org/
+
+Alternative without Git: visit the repository page on GitHub, click the green "Code" button and choose "Download ZIP", then extract the archive and open the extracted folder.
+
+### 3. Check Your Location and Clone the Repository
 
 
 In the **Anaconda Prompt** for Windows or **terminal** for Mac, check your current folder:
