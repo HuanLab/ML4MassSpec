@@ -129,7 +129,7 @@ cd ML4MassSpec
 ```
 
 
-### 3. Set Up a Python Virtual Environment
+### 4. Set Up a Python Virtual Environment
 
 **Why use a virtual environment?**
 
@@ -175,7 +175,7 @@ deactivate
 
 Tip: Simply closing the terminal window also ends the environment session.
 
-### 4. Open JupyterLab and Load a Notebook (Recommended)
+### 5. Open JupyterLab and Load a Notebook (Recommended)
 
 After following above steps:
 
@@ -195,7 +195,7 @@ After following above steps:
 
 ---
 
-### 5. Select the Environment and Run Code
+### 6. Select the Environment and Run Code
 
 In JupyterLab, open the `notebooks/` folder and start with `1_Data_Preparation.ipynb`.
 
