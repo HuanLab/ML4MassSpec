@@ -204,7 +204,6 @@ At the top of the notebook, select the kernel named **Python (ml4ms)**. This ens
 <div align="center">
 <img src="images/virtual_env.png" alt="Select Kernel" width="600">
 </div>
----
 
 ## How to Use the Tutorial
 
