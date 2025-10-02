@@ -190,9 +190,7 @@ Follow these steps to get started with the project notebooks.
   <img src="images/files.PNG" alt="JupyterLab File Browser" width="600">
 </div>
 
-### (Optional) Using the Terminal
-
-If you need to run shell commands, you can open a terminal directly within the JupyterLab interface.
+(Optional) If you need to run shell commands, you can open a terminal directly within the JupyterLab interface.
 
 <div align="center">
   <img src="images/terminal.PNG" alt="JupyterLab Terminal" width="400">
