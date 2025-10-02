@@ -170,7 +170,7 @@ python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
 
 How to know it worked: your terminal prompt will show `(.venv)` (or similar) at the beginning, indicating the environment is active.
 <div align="center">
-  <img src="images/venv.PNG" alt="virtual environment" width="300">
+  <img src="images/venv.PNG" alt="virtual environment" width="450">
 </div>
 
 Deactivate the environment when you're done:
