@@ -85,6 +85,8 @@ If that prints a version number, you're ready to clone. If not, install Git usin
 
 Quick install (common platforms):
 
+- Windows: Download and run the Git for Windows installer:
+
 - macOS (Homebrew):
 
 ```bash
@@ -98,8 +100,6 @@ brew install git
 sudo apt update
 sudo apt install git -y
 ```
-
-- Windows: Download and run the Git for Windows installer:
 
 https://gitforwindows.org/
 
@@ -130,6 +130,10 @@ cd ML4MassSpec
 
 
 ### 4. Set Up a Python Virtual Environment
+
+**What is a virtual environment?**
+
+A Python virtual environment is an isolated Python workspace that keeps packages and dependencies separate from your system's global Python installation. Think of it as a dedicated folder that contains its own Python interpreter and package library. When you activate a virtual environment, Python uses only the packages installed in that specific environment, preventing conflicts between different projects that might need different versions of the same package.
 
 **Why use a virtual environment?**
 
@@ -166,6 +170,9 @@ python -m ipykernel install --user --name ml4ms --display-name "Python (ml4ms)"
 ```
 
 How to know it worked: your terminal prompt will show `(.venv)` (or similar) at the beginning, indicating the environment is active.
+<div align="center">
+  <img src="images/venv.PNG" alt="virtual environment" width="600">
+</div>
 
 Deactivate the environment when you're done:
 
