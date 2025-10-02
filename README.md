@@ -179,17 +179,23 @@ Tip: Simply closing the terminal window also ends the environment session.
 
 After following above steps:
 
-- 1. Open the **Anaconda Navigator** app from your Start menu (Windows) or Applications folder (Mac).
-- 2. In Anaconda Navigator, click the **Launch** button under JupyterLab. This will open JupyterLab in your web browser.
-- 3. In JupyterLab, use the file browser (on the left) to navigate to the `notebooks/` folder inside your `ML4MassSpec` project.
-- 4. Double-click on target **ipynb** file to open the notebook and get started.
-<div align="center">
-<img src="images/files.PNG" alt="JupyterLab File Browser" width="600">
-</div>
-- 5. (Optional) Inside JupyterLab, you can open a terminal tab from the Jupyter interface if you need to run shell commands.
+Follow these steps to get started with the project notebooks.
+
+1.  Open the **Anaconda Navigator** app from your Start menu (Windows) or Applications folder (Mac).
+2.  In Anaconda Navigator, click the **Launch** button under **JupyterLab**. This will open JupyterLab in your web browser.
+3.  Using the file browser on the left, navigate into the `notebooks/` folder inside the `ML4MassSpec` project.
+4.  Double-click on your target `.ipynb` file to open the notebook.
 
 <div align="center">
-<img src="images/terminal.PNG" alt="JupyterLab Terminal" width="400">
+  <img src="images/files.PNG" alt="JupyterLab File Browser" width="600">
+</div>
+
+### (Optional) Using the Terminal
+
+If you need to run shell commands, you can open a terminal directly within the JupyterLab interface.
+
+<div align="center">
+  <img src="images/terminal.PNG" alt="JupyterLab Terminal" width="400">
 </div>
 
 
