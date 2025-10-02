@@ -139,7 +139,7 @@ cd ML4MassSpec
 
 **Note:** You can skip this step and install packages system-wide, but this may cause conflicts and is less reproducible. We strongly suggest using a virtual environment, especially if you are new to Python projects.
 
-**Before running the following commands, make sure you are inside the `ML4MassSpec` project folder as descibed in step 2.**
+**Before running the following commands, make sure you are inside the `ML4MassSpec` project folder as descibed in step 3.**
 
 The following commands will create a new Python virtual environment, install all required packages listed in **requirements.txt** file, and add it as a selectable kernel in Jupyter. If you want to use the **terminal** in JupyterLab, make sure 'terminado' is listed in requirements.txt and installed as shown below.
 
